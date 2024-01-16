@@ -81,7 +81,7 @@ This project is licensed under the ${license}.
 You can contact me via my email ${email}.
 `
 
-    await fs.writeFile('./out/README.md', mdData, (err) => err ? console.error(err) : console.log("Success!"));
+    await fs.writeFile('./out.md', mdData, (err) => err ? console.error(err) : console.log("Success!"));
 }
 
 main();
